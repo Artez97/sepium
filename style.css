@@ -1,0 +1,120 @@
+                    * {
+                        padding: 0;
+                        margin: 0;
+                        box-sizing: border-box;
+                        text-decoration: none;
+                        list-style-type: none;
+                    }
+                    
+                    body {
+                        scroll-behavior: smooth;
+                        text-rendering: optimizeSpeed;
+                    }
+                    
+                    header {
+                        margin: 15px 15px 0 15px;
+                        border-top-left-radius: 20px;
+                        border-top-right-radius: 20px;
+                        padding-top: 80px;
+                        background: #EDEEF5;
+                    }
+                    
+                    .head {}
+                    
+                    .container3 {
+                        margin: 0 15px 15px;
+                        border-bottom-left-radius: 20px;
+                        border-bottom-right-radius: 20px;
+                        padding-top: 80px;
+                        background: #EDEEF5;
+                    }
+                    
+                    main {
+                        margin: 0 15px 0 15px;
+                        background: #EDEEF5;
+                    }
+                    
+                    .logonav {
+                        margin-left: 40px;
+                        margin-right: 172px;
+                        width: 261px;
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                    
+                    .text {
+                        margin-right: 40px;
+                    }
+                    
+                    .container2 {
+                        background-color: #f1e4e6;
+                    }
+                    
+                    .container1 {
+                        gap: 15px;
+                        display: flex;
+                    }
+                    
+                    .container {
+                        margin: 0 auto;
+                    }
+                    
+                    .categories {
+                        padding-top: 15px;
+                        display: flex;
+                        gap: 15px;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                    }
+                    
+                    .card h5 {
+                        font-family: 'Manrope';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 16px;
+                        text-align: right;
+                        color: #787878;
+                    }
+                    
+                    .logonav h5 {
+                        font-family: 'Manrope';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #787878;
+                    }
+                    
+                    .text h2 {
+                        font-family: 'PT Sans Caption';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 58px;
+                        line-height: 64px;
+                        letter-spacing: -0.03em;
+                        /* black-main */
+                        color: #181818;
+                    }
+                    
+                    .card h4 {
+                        font-family: 'Manrope';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 27px;
+                        /* black-main */
+                        color: #181818;
+                    }
+                    
+                    .card {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        padding: 7px 7px 10px;
+                        gap: 10px;
+                        background: #FFFFFF;
+                        box-shadow: 0px 4px 20px rgb(0 0 0 / 3%);
+                        border-radius: 20px;
+                    }
